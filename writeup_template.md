@@ -2,7 +2,7 @@
 
 ## Udacity Self Driving Car Engineer Nanodegree - Project 4
 
-![Final Result Gif](./images/project_vid.gif)
+![Final Result Gif](./images/result.gif)
 
 The goal of this project is to develop a pipeline to process a video stream from a forward-facing camera mounted on the front of a car, and output an annotated video which identifies:
 - The positions of the lane lines 
@@ -99,7 +99,7 @@ In order to make the output smooth I chose to average the coefficients of the po
 
 |Project Video|Challenge Video|
 |-------------|-------------|
-|![Final Result Gif](./images/project_vid.gif)|![Challenge Video](./images/challenge.gif)|
+|![Final Result Gif](./images/result.gif)|![Challenge Video](./images/challenge.gif)|
 
 ### Possible Limitations:
 The video pipeline developed in this project did a fairly robust job of detecting the lane lines in the test video provided for the project, which shows a road in basically ideal conditions, with fairly distinct lane lines, and on a clear day. It also did a decent job with the challenge video, although it did lose the lane lines momentarily when there was heavy shadow over the road from an overpass. 
